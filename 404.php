@@ -12,7 +12,7 @@ get_header(); ?>
 
 		<div class="page-header">
 			<div class="container">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'screenr' ); ?></h1>
+				<h1 class="page-title"><?php esc_html_e( 'Oups ! La page n\'existe pas', 'screenr' ); ?></h1>
 			</div>
 		</div>
 
@@ -23,7 +23,7 @@ get_header(); ?>
 					<section class="error-404 not-found">
 
 						<div class="page-content">
-							<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'screenr' ); ?></p>
+							<p><?php esc_html_e( "Il semblerait que rien n'existe à cette adresse, peut-être pourriez-vous essayer de faire une recherche ?", 'screenr' ); ?></p>
 
 							<?php get_search_form(); ?>
 
